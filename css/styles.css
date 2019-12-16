@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  text-align: center;
+  
+}
+nav {
+  height: 60px;
+}
+ul {
+  list-style-type: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.left_nav {
+  float: left;
+}
+.right_nav {
+  float: right;
+}
+li {
+  display: block;
+  padding: 10px;
+}
+li  a {
+  color: #333;
+}
+li img{
+  color: #333;
+}
+a:link {
+  text-decoration: none;
+}
+li a:hover {
+  text-decoration: underline;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background-color: rgb(231, 231, 231);
+  width: 100%;
+  left: 0;
+}
+footer a {
+  color: rgb(95, 95, 95);
+}
+.main {
+  display: block;
+}
+
+.logo {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.search_bar {
+  width: 582px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input {
+  width: 582px;
+  padding: 15px 0;
+  border-radius: 30px;
+  border: 2px solid #999;
+  text-indent: 50px;
+  background: url(../search.svg) no-repeat 15px center;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Buttons */
+.btn_sign_in {
+  background-color: #4285f4;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+  padding: 7px 10px;
+  border-radius: 2px;
+}
+
+button {
+  border: none;
+  margin: 10px 4px;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+button:hover {
+  border: 1px solid #555;
+}
+
+button a {
+  color: #555;
+}
+
+button a:hover {
+  color: #111;
+}
